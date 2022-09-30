@@ -1,0 +1,24 @@
+projects:
+
+portfoilio:
+- https://colorlib.com/wp/template/personalportfolio/
+- https://colorlib.com/wp/template/personal/
+
+projects
+(flex)
+- https://colorlib.com/wp/template/fitzone-2/
+- https://colorlib.com/wp/template/coffee/
+- https://colorlib.com/wp/template/content/
+
+(grid)
+- https://colorlib.com/wp/template/webuilder/
+- https://colorlib.com/wp/template/amin/
+- https://colorlib.com/wp/template/onetech/
+
+background remover
+- https://www.remove.bg/
+
+image / icons downloads
+- https://www.pexels.com/
+- https://pixabay.com/
+- https://codingheroes.io/resources/
