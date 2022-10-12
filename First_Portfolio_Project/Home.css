@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+* a {
+  text-decoration: none;
+}
+.Container {
+  width: 100%;
+  height: 100%;
+}
+.top header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.8rem 3.5rem;
+}
+.header__Logo {
+  display: flex;
+  align-items: center;
+}
+.top h1{
+  font-size: 2.5rem;
+}
+
+.top header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+.top header nav a {
+  padding: 0.7rem 1rem;
+  color: black;
+  text-decoration: none;
+}
+.top header button {
+  width: 14.5rem;
+  height: 4rem;
+  font-size: 11.4px;
+  background-color: #ec5b53;
+  border-radius: 3px;
+  border: 1px;
+}
+.top header button a {
+  color: white;
+}
+.First__Layout,
+.Second__Layout,
+.Third__Layout,
+.Fourth__Layout,
+.fifth__section,
+.sixth__section,
+.vintage__icon__section,
+.seventh__section,
+footer {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.First__Layout {
+  padding-top: 9.1rem;
+  padding-bottom: 9.1rem;
+  background-image: linear-gradient(to right, #ffffff70, #764076aa),
+    url(pix/Lion.jpg);
+  background-position: center;
+}
+.Paragraph__section p:first-child {
+  color: #ec5b53;
+}
+.Paragraph__section p:last-child {
+  color: white;
+}
+.Paragraph__section h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3.8rem;
+  color: #002d5b;
+}
+.Paragraph__section button {
+  width: 14.5rem;
+  height: 4rem;
+  background-color: #ec5b53;
+  border: 1px solid #ec5b53;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+.Paragraph__section button:last-child {
+  background-color: #d8ccccd0;
+  color: #63636300;
+  border: 1px solid #ec5b53;
+}
+.Paragraph__section button a {
+  color: white;
+}
+
+.Second__Layout {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.Second__Layout__Paragraph__section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.First__Paragraph {
+  flex-basis: 50%;
+}
+.First__Paragraph h3 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.First__Paragraph p{
+  line-height: 2.5rem;
+}
+.First__Paragraph p:last-child {
+  margin-top: 1rem;
+}
+.Second__Paragraph {
+  flex-basis: 50%;
+  align-self: flex-start;
+}
+.Second__Paragraph h2:first-child {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.mail__address {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+.mail__address P {
+  margin: 0;
+}
+
+.mail__address p:nth-child(1) {
+  font-size: 1.9rem;
+}
+.mail__address a {
+  color: black;
+}
+.Third__Layout {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #8080801a;
+}
+.Third__Layout h1 {
+  font-size: 3.5rem;
+}
+.figure__section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+.figure__section .figure {
+  flex-basis: 30%;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px 0px #00000033;
+}
+.figure__section .figure .icon,
+h3,
+p {
+  margin: 1.7rem auto;
+}
+.figure__section p {
+  text-align: left;
+  line-height: 2.3rem;
+}
+
+.Fourth__Layout {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.Fourth__Layout header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Fourth__Layout header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+.Fourth__Layout header a {
+  text-decoration: none;
+  padding: 0.8rem;
+  color: #2b2b2b;
+}
+.Fourth__Layout h1 {
+  font-size: 3.5rem;
+  color: #000a2d;
+}
+.General__Grid__Container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.FIrst__Grid__Layout {
+  width: inherit;
+  display: flex;
+  gap: 1rem;
+}
+.Second__Grid__Layout {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+.FIrst__Grid__Layout .bigger__box {
+  background-image: url(pix/Viking.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-basis: 70%;
+  height: 38rem;
+}
+.FIrst__Grid__Layout .small__boxes {
+  flex-basis: 30%;
+  flex-direction: column;
+}
+.small__upper__box {
+  background-image: url(pix/Owl.jpg);
+  background-size: cover;
+  background-position: center;
+  width: inherit;
+  height: 18.5rem;
+}
+.small__lower__box {
+  background-image: url(pix/hit.jpg);
+  background-size: cover;
+  background-position: right;
+  margin-top: 1rem;
+  width: inherit;
+  height: 18.5rem;
+}
+.Second__Grid__Layout .box {
+  width: 32%;
+  height: 18.5rem;
+}
+.Second__Grid__Layout .one {
+  background-image: url(pix/Nezuko.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Second__Grid__Layout .two {
+  background-image: url(pix/Dragon\ prince.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Second__Grid__Layout .three {
+  background-image: url(pix/Lion.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.fifth__section {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  background-image: url(pix/section_bg02.jpg.webp);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fifth__section button {
+  width: 14.5rem;
+  height: 4rem;
+  border: 1px solid #ec5b53;
+  border-radius: 2px;
+  background-color: #ec5b53;
+}
+.fifth__section button a {
+  color: white;
+}
+.fifth__section h1 {
+  font-size: 3.5rem;
+  color: #ec5b53;
+}
+.sixth__section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.sixth__section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sixth__section header .round__circles {
+  display: flex;
+  gap: 0.3rem;
+}
+.sixth__section header h1 {
+  font-size: 3.5rem;
+  color: #000a2d;
+}
+.round_circle {
+  padding: 0.8rem;
+  border: 1px solid #46454534;
+  border-radius: 100%;
+}
+.Circle_Image {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 100%;
+}
+.sixth__section .box__container {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.box__container .Box header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  justify-content: left;
+  gap: 1.5rem;
+}
+.box__container .Box header p {
+  margin: 0.3rem 0;
+}
+.box__container .Box {
+  flex-basis: 30%;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px 0px #00000033;
+}
+.box__container .Box p {
+  line-height: 2.3rem;
+}
+.vintage__icon__section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  background-color: #8080801a;
+  justify-content: space-between;
+}
+.seventh__section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  background-color: #f3d4d94e;
+}
+.seventh__section p {
+  line-height: 2.7rem;
+}
+
+.container__for__texts_and_Form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container__for__texts_and_Form .text__container {
+  flex-basis: 40%;
+}
+.text__container h2 {
+  font-size: 3rem;
+  color: #000a2d;
+}
+.container__for__texts_and_Form .form__container {
+  flex-basis: 40%;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 1.5px;
+  border: 1px solid white;
+  outline: none;
+}
+input[placeholder="Email"] {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+textarea {
+  width: 100%;
+  padding: 1rem 1rem;
+  border: 1px solid white;
+  border-radius: 1.5px;
+  outline: none;
+}
+.form__container button {
+  width: 100%;
+  height: 3.5rem;
+  margin-top: 1.6rem;
+  padding: 2rem auto;
+  background-color: #ec5b53;
+  border: 1px solid #ec5b53;
+  border-radius: 2px;
+}
+.form__container button a {
+  color: white;
+}
+footer {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #080827;
+}
+footer .footer__Top {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer .footer__base {
+  display: flex;
+  justify-content: space-around;
+}
+footer h3 {
+  font-size: 2rem;
+}
+footer h2 {
+  font-size: 2.4rem;
+}
