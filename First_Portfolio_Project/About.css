@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+* a {
+  text-decoration: none;
+}
+
+.Container {
+  width: 100%;
+  height: 100%;
+}
+.top header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.8rem 3.5rem;
+}
+.header__Logo {
+  display: flex;
+  align-items: center;
+}
+
+.top h1 {
+  font-size: 2.5rem;
+}
+
+.top header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+.top header nav a {
+  padding: 0.7rem 1rem;
+  color: black;
+  text-decoration: none;
+}
+.top header button {
+  width: 14.5rem;
+  height: 4rem;
+  font-size: 11.4px;
+  background-color: #ec5b53;
+  border-radius: 3px;
+  border: 1px;
+}
+.top header button a {
+  color: white;
+}
+.First__layout,
+.Second__layout,
+.Third__layout,
+.fourth__section,
+.vintage__icon__section,
+.fifth__section,
+.sixth__section,
+footer {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.First__layout {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-image: url(pix/hero2.jpg.webp);
+}
+
+.First__layout h1 {
+  font-size: 5rem;
+  color: #002d5b;
+}
+.First__layout a {
+  color: #ec5b53;
+}
+.First__layout ul {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+.Second__layout {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image__section {
+  flex-basis: 45%;
+}
+.image__section img {
+  width: 100%;
+  height: 50rem;
+}
+.right__section {
+  flex-basis: 45%;
+}
+.right__section h1 {
+  font-size: 3.6rem;
+  padding-bottom: 3rem;
+}
+.right__section p {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  line-height: 2.5rem;
+}
+.right__section h5 {
+  padding: 1.3rem 1rem;
+  font-size: 2rem;
+  border-left: 2px solid #ff5f13;
+}
+
+.Third__layout {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.Third__layout__Paragraph__section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.First__Paragraph {
+  flex-basis: 50%;
+}
+.First__Paragraph h3 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.First__Paragraph p {
+  line-height: 2.5rem;
+}
+.First__Paragraph p:last-child {
+  margin-top: 1rem;
+}
+.Second__Paragraph {
+  flex-basis: 50%;
+  align-self: flex-start;
+}
+.Second__Paragraph h2:first-child {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.mail__address {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+.mail__address P {
+  margin: 0;
+}
+
+.mail__address p:nth-child(1) {
+  font-size: 1.9rem;
+}
+.mail__address a {
+  color: black;
+}
+
+.fourth__section {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(pix/section_bg02.jpg.webp);
+}
+.fourth__section button {
+  width: 14.5rem;
+  height: 4rem;
+  border: 1px solid #ec5b53;
+  border-radius: 2px;
+  background-color: #ec5b53;
+}
+.fourth__section button a {
+  color: white;
+}
+.fourth__section h1 {
+  font-size: 3.5rem;
+  color: #ec5b53;
+}
+.fifth__section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.fifth__section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fifth__section header .round__circles {
+  display: flex;
+  gap: 0.3rem;
+}
+.fifth__section header h1 {
+  font-size: 3.5rem;
+  color: #000a2d;
+}
+.round_circle {
+  padding: 0.8rem;
+  border: 1px solid #46454534;
+  border-radius: 100%;
+}
+.Circle_Image {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 100%;
+}
+.fifth__section .box__container {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.box__container .Box header {
+  display: flex;
+  padding-bottom: 2rem;
+  align-items: center;
+  justify-content: left;
+  gap: 1.5rem;
+}
+.box__container .Box header p {
+  margin: 0.3rem 0;
+}
+.box__container .Box {
+  flex-basis: 30%;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px 0px #00000033;
+}
+.box__container .Box p {
+  line-height: 2.3rem;
+}
+.vintage__icon__section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  background-color: #8080801a;
+  justify-content: space-between;
+}
+.sixth__section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #f3d4d94e;
+}
+.sixth__section p {
+  line-height: 2.7rem;
+}
+
+.container__for__texts_and_Form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container__for__texts_and_Form .text__container {
+  flex-basis: 40%;
+}
+.text__container h2 {
+  font-size: 3rem;
+  color: #000a2d;
+}
+.container__for__texts_and_Form .form__container {
+  flex-basis: 40%;
+}
+.text__container p {
+  margin: 1.5rem 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 1.5px;
+  border: 1px solid white;
+  outline: none;
+}
+input[placeholder="Email"] {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+textarea {
+  width: 100%;
+  padding: 1rem 1rem;
+  border: 1px solid white;
+  border-radius: 1.5px;
+  outline: none;
+}
+.form__container button {
+  width: 100%;
+  height: 3.5rem;
+  margin-top: 1.6rem;
+  padding: 2rem auto;
+  background-color: #ec5b53;
+  border: 1px solid #ec5b53;
+  border-radius: 2px;
+}
+.form__container button a {
+  color: white;
+}
+footer {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: white;
+  background-color: #080827;
+}
+
+footer .footer__Top {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  line-height: 3.6rem;
+}
+footer .footer__base {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h3 {
+  font-size: 2rem;
+}
+footer h2 {
+  font-size: 2.4rem;
+}
